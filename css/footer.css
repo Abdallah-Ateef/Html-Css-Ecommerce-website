@@ -1,0 +1,14 @@
+footer{
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-block: 1rem;
+    margin-top:3rem;
+    color: #fff;
+    font-size: 17px;
+    background-color:var(--footer-bg) ;
+
+    & span{
+        color: rgb(220, 85, 85);
+    }
+}

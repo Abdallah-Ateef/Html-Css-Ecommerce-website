@@ -1,0 +1,162 @@
+
+
+div.top-image{
+    position: relative;
+    background-image: url(../../images/bac.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+section.content{
+    font-size: 2rem;
+    position: absolute;
+    top: 40%;
+    margin-left: 10%;
+
+ & .lifestyle{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+
+    }
+
+ & .men{
+    margin-top: .7rem;
+    text-transform: uppercase;
+ }
+
+ & .sale{
+    margin-block:.5rem;
+    font-weight: bold;
+ }
+
+ & .sale span{
+    color: crimson;
+    margin-left: .8rem;
+ }
+
+ & .free-shiping{
+    font-size: 1.5rem;
+ }
+
+ & button{
+    background-color:black;
+    color: white;
+    margin-top: .9rem;
+    font-size: .9rem;
+    border-radius: 3px;
+    padding: .6rem 1.6rem;
+ }
+
+}
+
+section.main-content{
+   width: 80%;
+   margin: auto;
+   padding-bottom: 50px;
+   & h1{
+      margin: 2.3rem 0 2rem 2%;
+   }
+
+ & .products .card img{
+    width: 266px;
+ } 
+
+ & .products .card{
+   border-radius: 5px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+ }
+
+ & .products .card:hover{
+   scale: 1.01;
+   transition: 0.2s;
+ }
+
+ & .products.flex{
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2rem;
+ }
+
+ & img{
+   border-radius: 5px 5px 0 0;
+ }
+
+ & .card .content{
+   width: 266px;
+   background-color: #fff;
+ }
+
+ & .card .title{
+   padding: 0.7rem 0 ;
+   text-transform: capitalize;
+   padding-inline: 0.4rem;
+ }
+
+ & .card .description{
+   font-size: 0.8rem;
+   margin-bottom: 0.6rem;
+   line-height: 1.1rem;
+   padding-inline: 0.4rem;
+
+ }
+
+ & .card .price{
+   font-size: 0.9rem;
+   color: rgb(199, 0, 40);
+   font-weight: bold;
+   padding-inline: 0.4rem;
+ }
+
+ & .card .add-t-cart{
+   font-size: 0.7rem;
+   margin-right: 0.88rem;
+   background-color: var(--blue-button);
+   border-radius: 4px;
+   padding: 6px 8px;
+   gap: 0.33rem;
+   color: #fff;
+ }
+
+ & .products .fa-solid{
+   color: #fff;
+   margin-right: .4rem;
+ }
+}
+
+
+
+
+
+
+@media(min-width:600px){
+   section.main-content{
+      width: 100%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:999px){
+    div.top-image{
+        background-position: left;
+    }
+}

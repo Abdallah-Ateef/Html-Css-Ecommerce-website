@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/pages/cart.css">
+</head>
+<body style="height: 100vh;display: grid; grid-template-rows: auto 1fr auto;align-items: center;">
+
+    <header class="flex">
+        <a href="/" class="header__logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>AWU</span>
+            <p>shopping</p>
+        </a>
+        <div class="header__links">
+            <a class="cart"><i class="fa-solid fa-cart-arrow-down"></i> $0.00
+                <span class="product-number">2</span>
+            </a>
+            <a href="./sign-in.html" class="sign-in"><i class="fa-solid fa-arrow-right-to-bracket"></i> sign in</a>
+            <a href="./register.html" class="register"><i class="fa-solid fa-user-plus"></i> register</a>
+        </div>
+
+    </header>
+
+    <section class="content">
+        <div class="carts">
+            <div class="product flex">
+               <button><i class="fa-solid fa-trash"></i></button>
+               <p class="price">$1322</p>
+               <div class="flex">
+                <button class="decrease">-</button>
+                <div class="quantity flex">3</div>
+                <button class="increase">+</button>
+               </div>
+               <p class="title">product title</p>
+               <img style="border-radius: 0.22rem;width: 70px;height: 70px;" src="../images/1.png">
+            </div>
+            <div class="product flex">
+                <button><i class="fa-solid fa-trash"></i></button>
+                <p class="price">$1322</p>
+                <div class="flex">
+                 <button class="decrease">-</button>
+                 <div class="quantity flex">3</div>
+                 <button class="increase">+</button>
+                </div>
+                <p class="title">product title</p>
+                <img style="border-radius: 0.22rem;width: 70px;height: 70px;" src="../images/2.webp">
+             </div>
+             <div class="product flex">
+                <button><i class="fa-solid fa-trash"></i></button>
+                <p class="price">$1322</p>
+                <div class="flex">
+                 <button class="decrease">-</button>
+                 <div class="quantity flex">3</div>
+                 <button class="increase">+</button>
+                </div>
+                <p class="title">product title</p>
+                <img style="border-radius: 0.22rem;width: 70px;height: 70px;" src="../images/3.webp">
+             </div>
+             <div class="product flex">
+                <button><i class="fa-solid fa-trash"></i></button>
+                <p class="price">$1322</p>
+                <div class="flex">
+                 <button class="decrease">-</button>
+                 <div class="quantity flex">3</div>
+                 <button class="increase">+</button>
+                </div>
+                <p class="title">product title</p>
+                <img style="border-radius: 0.22rem;width: 70px;height: 70px;" src="../images/4.webp">
+             </div>
+            
+
+        </div>
+        
+            <button class="clear-button"><i class="fa-regular fa-trash-can"></i> clear cart</button>
+        
+        <div class="summary">
+            <h1>Get Summary</h1>
+            <div class="flex">
+                <p class="subtotal">Subtotal</p>
+                <p>$1999</p>
+            </div>
+            <button disabled class="checkout">CHECKOUT</button><br>
+            <a href="./sign-in.html">please sign in to continue</a>
+        </div>
+       
+    </section>
+
+
+    <footer>
+        Designed and developed by <span>Abdallah Atef </span>&#169 2024
+    </footer>
+</body>
+</html>
